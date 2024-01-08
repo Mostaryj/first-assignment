@@ -1,9 +1,12 @@
 /* common style */
-body{
+*{
+    font-family: 'Inter', sans-serif;
     font-family: 'Merriweather', serif;
 }
+    
+
 .container{
-    background-image: url('../resources/Banner\ Image.png');
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Banner\ Image.png');
     background-color: #070211;
    
     
@@ -12,10 +15,9 @@ height: 600px;
 flex-shrink: 0;
 border-radius: 16px;
 text-align: center;
-margin:auto ;
-/* background-color:#070211, #07021100 ; */
-/* background-blend-mode: multiply; */
-/* opacity: 50; */
+margin: auto ;
+
+
 }
 .banner-text{
     text-align: center;
@@ -34,9 +36,10 @@ text-align: center;
 font-size: 72px;
 width: 632px;
 font-weight: 900;
-padding-bottom: 583px;
+padding-bottom: 900px;
 line-height: 95px;
 padding-left: 344px;
+;
 }
 
 
@@ -84,10 +87,13 @@ line-height: normal;
 
 .party-party{
     margin-left: 300px;
-    
+    /* display: flex; */
+}   
+.wellcome-party{
+    /* display: flex; */
 }
 .party-one{
-    background-image: url('../resources/Vectorrr.png');
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Vectorrr.png');
     width: 1320px;
 height: 600px;
 flex-shrink: 0;
@@ -121,11 +127,9 @@ width: 697px;
 text-align: center;
 font-family: Inter;
 font-size: 20px;
-font-style: normal;
 font-weight: 700;
-line-height: normal;
 color: #FFF;
-background-color: gray;
+background-color: transparent;
 
 }
 
@@ -147,7 +151,7 @@ flex-shrink: 0;
 height: 482px;
 flex-shrink: 0;
 background-color: rgba(255, 0, 0, 0.10) ;
-margin-left: 50px;
+margin-left: 500px;
 }
 .date{
     /* color: #F00; */
@@ -183,7 +187,8 @@ border: 0;
     height: 1100px;
     background: #FFF;
     display: flex;
-    margin: 50px;
+    margin-left: 500px;
+    margin-top: 500px;
 
 }
 #new-best-offer{
@@ -211,6 +216,82 @@ font-family: Inter;
 font-size: 20px;
 font-style: normal;
 font-weight: 400;
-line-height: 32px; /* 160% */
+line-height: 32px;
 }
-.ellipse
+.ellipse{
+    width: 463px;
+height: 463px;
+flex-shrink: 0;
+    background-color: #FFF;
+    border-radius: 463px;
+border: 15px solid #F00;
+margin-left: 50px;
+}
+.para-two{
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px; 
+width: 276px;
+padding-left: 100px;
+}
+#para-two-title{
+    color: #F00;
+    font-family: Inter; 
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    padding-left: 100px;
+}
+.group-96{
+    padding-left: 180px;
+}
+.coming-soon-soon{
+    padding-top: 70px;
+}
+/* products */
+.products{
+    width: 1600px;
+height: 1330px;
+background: #FFF;
+margin-left: 500px;
+}
+.portfolio{
+    margin: auto;
+    width: 1400px;
+    grid: 5px;
+}
+.best-gift{
+    color: #F00;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+padding-top: 40px;
+}
+.awesome{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+       
+}
+.para-three{
+    width: 898px;
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+
+font-weight: 400;
+line-height: 32px;
+
+}
+
+.photo{
+    width: 100%;
+    height: 100%;
+    grid: auto;
+}
