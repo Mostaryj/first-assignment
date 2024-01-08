@@ -2,16 +2,20 @@
 body{
     font-family: 'Merriweather', serif;
 }
-header{
+.container{
     background-image: url('../resources/Banner\ Image.png');
+    background-color: #070211;
+   
+    
     width: 1320px;
 height: 600px;
 flex-shrink: 0;
 border-radius: 16px;
 text-align: center;
-margin-left:100px ;
-background-color:#070211, #07021100 ;
-background-blend-mode: multiply;
+margin:auto ;
+/* background-color:#070211, #07021100 ; */
+/* background-blend-mode: multiply; */
+/* opacity: 50; */
 }
 .banner-text{
     text-align: center;
@@ -40,11 +44,12 @@ padding-left: 344px;
 .offer{
     margin-top: 180px ;
     width: 1600px;
-height: 1666px;
+height: 1000px;
 background: #FFF;
-padding-left: 399px;
+padding-left: 149px;
 text-align:center;
-/* background-color: aqua; */
+margin: auto;
+
 
 }
 .off{
@@ -76,6 +81,11 @@ line-height: normal;
     width: 802px;
     height: 500px;
 }
+
+.party-party{
+    margin-left: 300px;
+    
+}
 .party-one{
     background-image: url('../resources/Vectorrr.png');
     width: 1320px;
@@ -84,6 +94,7 @@ flex-shrink: 0;
 margin-left: 50px;
 padding-top: 50px;
 padding-left: 50px;
+background-repeat: no-repeat;
 }
 
 .party{
@@ -113,7 +124,8 @@ font-size: 20px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
-text-transform: uppercase;
+color: #FFF;
+background-color: gray;
 
 }
 
@@ -165,3 +177,40 @@ font-weight: 700;
 font-family: Inter;
 border: 0;
 }
+/* new offer */
+.new-offer{
+    width: 1600px;
+    height: 1100px;
+    background: #FFF;
+    display: flex;
+    margin: 50px;
+
+}
+#new-best-offer{
+    color: #F00;
+    /* text-align: center; */
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+#coming-soon-two{
+    color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+}
+.para-one{
+    width: 393px;
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+}
+.ellipse
