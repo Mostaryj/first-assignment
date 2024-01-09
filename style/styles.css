@@ -85,35 +85,27 @@ line-height: normal;
     width: 802px;
     height: 500px;
 }
-
-
-.welcome-party{
-    margin-left:500px;
-    /* display: flex; */
-    max-width: 0;
-}
 .party-time{
     display: flex;
     
 }
-.party-one{
+.party-time{
     background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Vectorrr.png');
-    width: 1020px;
+    width: 1320px;
 height: 500px;
-margin-left: 50px;
 padding-top: 50px;
 padding-left: 50px;
 background-repeat: no-repeat;
 border-radius: 10px;
-
+margin: 0 auto;
+justify-content: space-between;
 }
 .imge{
     width: 319.83px;
     height: 464.662px;
     padding: 0.008px 0px 0px 0px;
     flex-shrink: 0;
-    padding-right: 700px;
-    
+    padding-right: 90px;   
     }
 .party{
     color: #FFF;
@@ -151,11 +143,13 @@ background-color: transparent;
     width: 1320px;
 height: 482px;
 flex-shrink: 0;
-background-color: rgba(255, 0, 0, 0.10) ;
+/* color: #FF0000, #FF000000; */
+background-color: rgba(255, 192, 192, 0.341);
 margin:auto;
+margin-top: 90px;
 }
 .date{
-    /* color: #F00; */
+    
     text-align: center;
     font-family: Inter;
     font-size: 32px;
@@ -256,7 +250,7 @@ padding-left: 100px;
 /* products */
 .products{
     width: 1600px;
-height: 1330px;
+height: 1400px;
 background: #FFF;
 margin:auto;
 }
@@ -294,13 +288,20 @@ line-height: 32px;
 }
 
 .photo{
-    width: 100%;
-    height: 100%;
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-template-rows: auto auto auto auto;
-    grid-row-gap:33px;
-
+    width: 424px;
+    height: 450px;
+    
+}
+.photos-one{
+    display: flex;
+    /* column-gap: 20px; */
+    /* row-gap: 20px; */
+    gap: 20px ;
+    padding-bottom: 20px;
+}
+.photos{
+    display: flex;
+    gap: 20px ;
 }
 
 /* subscribe */
@@ -338,6 +339,10 @@ font-weight: 400;
 line-height: 32px;
 padding-left: 150px;
 }
+.user{
+     display: flex;
+     padding-left: 320px;
+}
 
 #user-email{
     width: 348px;
@@ -349,10 +354,9 @@ color: rgba(7, 2, 17, 0.30);
 text-align: center;
 font-family: Inter;
 font-size: 18px;
-font-style: normal;
 font-weight: 400;
-line-height: normal;
 border: 0;
+padding-left: 15px;
 }
 .btn4{
     width: 210px;
@@ -360,13 +364,11 @@ height: 72px;
 flex-shrink: 0;
 border-radius: 0px 50px 50px 0px;
 background: #F00;
-color: #FFF;
+color: white;
 text-align: center;
 font-family: Inter;
 font-size: 20px;
-font-style: normal;
 font-weight: 600;
-line-height: normal;
 text-transform: capitalize;
 border: 0;
 }
@@ -380,7 +382,7 @@ margin: auto;
 }
 
 
-.last-para{
+.footer-para-one{
     color: #FFF;
     font-family: Inter;
     font-size: 24px;
@@ -389,34 +391,50 @@ margin: auto;
     line-height: 40px;
     padding-top: 120px; 
     padding-left: 140px;
-
+    display: flex;
+}
+.last-para{
+    font-family: Inter;
+    
+}
+#call{
+    
+    padding-right: 5px;
 }
 .half-para{
+    padding-left: 600px;
+    font-family: Inter;
+}
+#web{
+    padding-right: 10px;
+    
+}
+.footer-para-two{
+     display: flex;
+    padding-left: 600px; 
+    padding-bottom: 100px;
+    text-align: center;
+}
+.footer-para-three{
     color: #FFF;
 font-family: Inter;
 font-size: 24px;
 font-style: normal;
 font-weight: 500;
 padding-left: 160px;
-padding-top: 260px;
-
-
+display: flex;
+justify-content: space-between;
 }
 .icon{
     width: 64px;
 height: 64px;
 flex-shrink: 0;
-margin-top: 298px;
+margin-top: 68px;
 margin-left: 20px;
+padding-left: 10px;
+text-align: center;
 }
-.icon-one{
-    width: 24px;
-height: 24px;
-flex-shrink: 0;
-display: flex;
-align-items: center;
 
-}
 .number{
     color: #FFF;
 font-family: Inter;
@@ -425,17 +443,13 @@ font-style: normal;
 font-weight: 500;
 line-height: 40px; 
 }
-.call{
-    padding-left: 200px;
-    padding-top:120px ;
-    
-}
+
 .unsubscribe{
     color: #FFF;
 font-family: Inter;
 font-size: 24px;
 font-style: normal;
 font-weight: 500;
-padding-top: 160px;
 padding-left: 300px;
 }
+
